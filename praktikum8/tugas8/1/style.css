@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 60vh;
+    display: flex;
+}
+
+nav {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 5%;
+    height: 654px;
+    width: 5%;
+}
+
+header {
+    color: white;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    background-color: red;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 20vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

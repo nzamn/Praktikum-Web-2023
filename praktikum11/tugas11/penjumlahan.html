@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjumlahan</title>
+</head>
+
+<body>
+    <input onchange="hitung()" type="number" id="bilangan1">
+    <br>
+    <b>+</b>
+    <br>
+    <input onchange="hitung()" type="number" id="bilangan2">
+    <br>
+    <b>=</b>
+    <br>
+    <input type="number" id="hasil" readonly>
+
+    <script>
+        function hitung() {
+            let bilangan1 = Number(document.getElementById("bilangan1").value);
+            let bilangan2 = Number(document.getElementById("bilangan2").value);
+            let hasil = bilangan1 + bilangan2;
+            document.getElementById ("hasil").value = hasil
+        }
+    </script>
+</body>
+
+</html> 
